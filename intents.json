@@ -1,0 +1,235 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello", "hi", "hey", "good morning", "good afternoon", "good evening",
+        "howdy", "what's up", "greetings", "hi there", "hello there", "sup"
+      ],
+      "responses": [
+        "Hello! Welcome to the AI College Helpdesk. How can I assist you today?",
+        "Hi there! I'm your AI college assistant. What can I help you with?",
+        "Hey! Great to see you. Ask me anything about our college!",
+        "Greetings! I'm here to help with all your college-related queries."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you", "see ya", "later", "take care",
+        "good night", "cya", "exit", "quit", "thanks bye", "thank you bye"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day. Feel free to return anytime!",
+        "See you later! Best of luck with your studies!",
+        "Take care! Don't hesitate to ask if you need more help.",
+        "Bye! Wishing you all the best in your academic journey!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "thank you so much", "thanks a lot",
+        "many thanks", "appreciate it", "much appreciated", "cheers"
+      ],
+      "responses": [
+        "You're very welcome! Is there anything else I can help you with?",
+        "Happy to help! Let me know if you have more questions.",
+        "My pleasure! Feel free to ask anything else.",
+        "Glad I could assist! Don't hesitate to ask more questions."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "how to apply", "admission process", "how can I get admission",
+        "admission requirements", "how to take admission", "apply for admission",
+        "enrollment process", "how do I enroll", "admission criteria",
+        "eligibility for admission", "admission form", "how to register",
+        "what documents are needed for admission", "admission deadline",
+        "can I apply online", "admission fee", "selection process"
+      ],
+      "responses": [
+        "📋 **Admission Process:**\n\n1. Visit our official website at www.college.edu\n2. Fill out the online application form\n3. Upload required documents (10th, 12th marksheets, ID proof)\n4. Pay the application fee of ₹500\n5. Attend the entrance test/merit-based selection\n6. Check your result on the portal\n7. Complete fee payment and document verification\n\n📅 **Deadlines:** Applications open in April each year.\n📞 Contact Admissions: +91-XXXX-XXXXXX",
+
+        "🎓 **How to Apply for Admission:**\n\nEligibility: 12th pass with 50%+ marks (60%+ for Engineering)\nDocuments Required:\n• 10th & 12th Mark Sheets\n• Transfer Certificate\n• Character Certificate\n• Passport-size photos\n• Aadhar Card copy\n\nVisit the Admissions Office (Block A, Room 101) or apply online. Merit list is announced within 2 weeks!"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses are available", "list of courses", "which programs",
+        "available programs", "course details", "what can I study",
+        "departments", "branches available", "streams", "what subjects",
+        "undergraduate courses", "postgraduate courses", "UG courses", "PG courses",
+        "engineering courses", "science courses", "commerce courses",
+        "which branch is best", "course duration", "syllabus"
+      ],
+      "responses": [
+        "📚 **Courses Offered:**\n\n🔬 **Science & Engineering:**\n• B.Tech (CSE, ECE, ME, CE, AI/ML)\n• B.Sc (Physics, Chemistry, Mathematics)\n• M.Tech (All branches)\n\n💼 **Management:**\n• BBA (Business Administration)\n• MBA (Finance, Marketing, HR)\n\n🖥️ **Computer Applications:**\n• BCA (Bachelor of Computer Applications)\n• MCA (Master of Computer Applications)\n\n📖 **Arts & Commerce:**\n• B.Com, M.Com\n• BA (English, Economics)\n\n⏱️ Duration: UG = 3-4 years | PG = 2 years",
+
+        "🎓 **Program Highlights:**\n\nWe offer 20+ programs across 8 departments.\n\n⭐ **Most Popular:**\n• B.Tech CSE/AI-ML (Top-rated)\n• MBA (100% placement record)\n• BCA (Industry-focused curriculum)\n\nAll programs are AICTE/UGC approved. Visit the Academic Office for detailed syllabus!"
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "exam schedule", "when are exams", "exam timetable", "exam dates",
+        "internal exams", "semester exams", "exam pattern", "how many exams",
+        "exam preparation", "exam rules", "hall ticket", "admit card",
+        "result date", "when will results come", "supplementary exam",
+        "backlog exam", "practical exam", "viva", "project submission"
+      ],
+      "responses": [
+        "📝 **Examination Schedule:**\n\n📅 **Internal Assessments:**\n• Mid-Term Exam 1: August (Week 3)\n• Mid-Term Exam 2: October (Week 2)\n• Assignments: Ongoing\n\n📅 **Semester Exams:**\n• Odd Semester: November-December\n• Even Semester: April-May\n\n🎫 **Hall Ticket:** Available 1 week before exams on the student portal\n📊 **Results:** Declared within 30 days after exams\n\n⚠️ 75% attendance mandatory to appear in exams!",
+
+        "📋 **Exam Information:**\n\nExam Pattern:\n• Theory: 70 marks (External)\n• Internals: 30 marks\n• Practicals: As per subject\n\nImportant: Carry Hall Ticket + College ID to every exam.\nFor supplementary exams, apply within 15 days of result.\n\n📞 Exam Cell: exam.cell@college.edu"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "fee structure", "how much is the fee", "tuition fee", "course fee",
+        "total fees", "fees per semester", "fee payment", "scholarship",
+        "fee waiver", "education loan", "hostel fee", "exam fee",
+        "how to pay fees", "fee due date", "fee receipt", "refund policy"
+      ],
+      "responses": [
+        "💰 **Fee Structure 2024-25:**\n\n🎓 **B.Tech:** ₹85,000/year\n🖥️ **BCA/MCA:** ₹45,000/year\n💼 **MBA:** ₹95,000/year\n📖 **B.Sc/B.Com/BA:** ₹28,000/year\n\n**Additional Fees:**\n• Development Fee: ₹5,000/year\n• Library Fee: ₹2,000/year\n• Exam Fee: ₹1,500/semester\n\n💳 **Payment Modes:** Online Portal | Bank Transfer | DD\n📅 **Due Date:** Within 30 days of semester start\n\n🎯 Scholarships available for merit & economically weaker students!",
+
+        "💡 **Scholarship Information:**\n\n• Merit Scholarship: Top 10% students get 25-50% fee waiver\n• Government Scholarships: SC/ST/OBC students\n• Sports Quota: Fee concession for state-level athletes\n• EWS Category: Special provisions available\n\nApply at: scholarship@college.edu | Scholarship Cell, Admin Block\n📅 Apply before: July 31st each academic year"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel facilities", "hostel details", "accommodation", "hostel fee",
+        "boys hostel", "girls hostel", "hostel rules", "room availability",
+        "hostel food", "hostel warden", "hostel admission", "PG accommodation",
+        "is hostel available", "can I live on campus", "hostel apply",
+        "hostel timings", "hostel contact"
+      ],
+      "responses": [
+        "🏠 **Hostel Facilities:**\n\n🔵 **Boys Hostel (Capacity: 500)**\n• 2-seater and 4-seater rooms\n• 24/7 Wi-Fi connectivity\n• RO water supply\n• Mess with hygienic food\n• Laundry facility\n• Indoor games room\n• 24-hour security\n\n🟣 **Girls Hostel (Capacity: 300)**\n• All above facilities\n• Lady warden on campus\n• CCTV surveillance\n• Biometric entry system\n\n💰 **Hostel Fee:** ₹60,000/year (including mess)\n📞 Hostel Office: hostel@college.edu",
+
+        "🏡 **Hostel Rules & Timings:**\n\n⏰ Gate Timings:\n• Regular: Open till 10:00 PM\n• Weekends: Open till 11:00 PM\n• Outpass required for overnight stays\n\n🍽️ Mess Timings:\n• Breakfast: 7:00 - 9:00 AM\n• Lunch: 12:00 - 2:00 PM\n• Dinner: 7:00 - 9:30 PM\n\nApply for hostel: hostel.office@college.edu\nApplication opens: June each year"
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "library timings", "library facilities", "where is library",
+        "library books", "library membership", "can I borrow books",
+        "library hours", "digital library", "e-library", "reference books",
+        "library rules", "how to issue books", "library card", "return books",
+        "library fine", "online resources", "journals"
+      ],
+      "responses": [
+        "📚 **Central Library:**\n\n⏰ **Timings:**\n• Monday - Saturday: 8:00 AM - 9:00 PM\n• Sunday: 10:00 AM - 5:00 PM\n• Holidays: Closed\n\n📖 **Collection:**\n• 50,000+ books & reference materials\n• 200+ national/international journals\n• 10,000+ e-books via NPTEL & Shodhganga\n• Newspapers & magazines\n\n📋 **Book Issue Rules:**\n• UG Students: 3 books for 14 days\n• PG Students: 5 books for 21 days\n• Faculty: 10 books for 1 month\n\n⚠️ Fine: ₹2/day per overdue book\n📍 Location: Main Block, Ground Floor",
+
+        "💻 **Digital Library Resources:**\n\n• NPTEL Online Courses (Free access)\n• IEEE Xplore - Research Papers\n• Springer Digital Library\n• JSTOR Academic Journals\n• Previous year question papers\n\nAccess online at: library.college.edu\nLogin: Use your student ID and password\n\n📞 Librarian: library@college.edu"
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "faculty details", "professors", "teachers", "who are the faculty",
+        "HOD", "head of department", "faculty contact", "meet the faculty",
+        "faculty qualification", "visiting faculty", "faculty office hours",
+        "can I meet professor", "teacher contact", "faculty list"
+      ],
+      "responses": [
+        "👨‍🏫 **Faculty Information:**\n\nOur college has 150+ highly qualified faculty members:\n\n🖥️ **CSE Department:**\n• Dr. Rajesh Kumar (HOD) - Ph.D IIT Delhi\n• Prof. Priya Sharma - M.Tech, 12 years experience\n• Dr. Anil Verma - AI/ML Specialist\n\n⚡ **ECE Department:**\n• Dr. Sunita Rao (HOD) - Ph.D NIT\n• Prof. Manoj Singh - VLSI Expert\n\n💼 **MBA Department:**\n• Dr. Kavita Joshi (HOD) - Ph.D, MBA\n\n📅 **Office Hours:** Mon-Fri, 9 AM - 5 PM\n📞 Faculty directory at: faculty.college.edu",
+
+        "🎓 **Meeting Faculty:**\n\n• Faculty cabin hours: 2:00 PM - 4:00 PM (weekdays)\n• For urgent queries: Contact department admin\n• Email format: firstname.lastname@college.edu\n\nAll departments are located in the Academic Block.\nFaculty meetings can be scheduled via the college app!"
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "college timings", "college hours", "what time does college open",
+        "college schedule", "class timings", "college start time",
+        "college end time", "when does college start", "office hours",
+        "college working hours", "administration timing", "when is college open"
+      ],
+      "responses": [
+        "⏰ **College Timings:**\n\n🏫 **Academic Hours:**\n• Classes: 9:00 AM - 4:30 PM\n• Monday to Saturday\n• Lunch Break: 1:00 PM - 2:00 PM\n\n🏢 **Administrative Office:**\n• Mon-Fri: 9:00 AM - 5:30 PM\n• Saturday: 9:00 AM - 2:00 PM\n• Sunday: Closed\n\n📚 **Special Sessions:**\n• Morning Classes: 8:00 AM (selective)\n• Evening Library: Open till 9:00 PM\n• Labs: Available till 6:00 PM\n\n🚌 **College Bus:** First bus at 7:30 AM, Last at 5:30 PM",
+
+        "📅 **Weekly Schedule:**\n\nMonday-Friday: Full academic day\nSaturday: Classes till 1:00 PM\nSunday: Campus closed (Library open 10AM-5PM)\n\nHolidays follow the academic calendar available on the college website!"
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "placement details", "campus placement", "job opportunities",
+        "companies visit", "salary package", "placement cell",
+        "internship", "how to get placed", "placement record",
+        "placement process", "aptitude test", "recruitment", "career",
+        "highest package", "average package", "placement statistics"
+      ],
+      "responses": [
+        "💼 **Placement Cell - 2024 Highlights:**\n\n📊 **Statistics:**\n• Placement Rate: 92%\n• Students Placed: 450+\n• Companies Visited: 80+\n• Highest Package: ₹24 LPA\n• Average Package: ₹6.5 LPA\n\n🏢 **Top Recruiters:**\n• TCS, Infosys, Wipro, HCL\n• Amazon, Microsoft, Deloitte\n• HDFC Bank, ICICI, L&T\n• Accenture, Cognizant, IBM\n\n📋 **Process:**\n1. Register on placement portal\n2. Attend pre-placement training\n3. Aptitude & coding tests\n4. GD & Personal Interviews\n\n📞 Placement Cell: placement@college.edu",
+
+        "🚀 **Internship Opportunities:**\n\n• Summer internships: Available from 2nd year\n• Duration: 4-8 weeks\n• Stipend: ₹5,000 - ₹30,000/month\n• Top Companies: Google, Microsoft, Startups\n\nApply via: internship.college.edu\n📅 Applications open: February every year\n\nPre-placement training includes:\n✅ Aptitude & Reasoning\n✅ Communication Skills\n✅ Technical Interview Prep\n✅ Resume Building"
+      ]
+    },
+    {
+      "tag": "campus",
+      "patterns": [
+        "campus facilities", "sports facilities", "canteen", "cafeteria",
+        "gym", "auditorium", "seminar hall", "labs", "computer lab",
+        "wifi on campus", "ATM", "medical facility", "health center",
+        "parking", "campus infrastructure", "what facilities are available"
+      ],
+      "responses": [
+        "🏛️ **Campus Facilities:**\n\n🏋️ **Sports Complex:**\n• Cricket ground, Football field\n• Basketball & Volleyball courts\n• Indoor badminton & TT\n• Swimming pool\n• Gymnasium (Mon-Sat, 6AM-9PM)\n\n🍽️ **Food & Beverages:**\n• Main Canteen (7AM-8PM)\n• Coffee Shop & Juice Bar\n• Subsidized meals for students\n\n🏥 **Health Center:**\n• On-campus doctor (10AM-5PM)\n• First aid available 24/7\n• Medical emergency support\n\n💻 **Tech Infrastructure:**\n• High-speed Wi-Fi campus-wide\n• 500+ computers across 10 labs\n• 3D Printing facility",
+
+        "🌟 **More Campus Highlights:**\n\n• 50-acre green campus\n• Solar-powered buildings\n• EV charging stations\n• Amphitheater for cultural events\n• Meditation & yoga center\n• ATM (SBI & PNB on campus)\n• Stationery & book store\n• Reprographic center\n\n📍 Campus Map available at: college.edu/campus-map"
+      ]
+    },
+    {
+      "tag": "transport",
+      "patterns": [
+        "college bus", "transport facility", "bus routes", "bus timings",
+        "how to reach college", "bus pass", "public transport",
+        "shuttle service", "pickup and drop", "transport fee"
+      ],
+      "responses": [
+        "🚌 **Transport Facility:**\n\n• 25 buses covering 50+ routes\n• Routes cover entire city and suburbs\n\n⏰ **Timings:**\n• First pickup: 7:00 AM\n• Last drop: 6:00 PM\n\n💰 **Bus Pass Fee:** ₹8,000 - ₹12,000/year (based on distance)\n\n📱 Track your bus live via the College App!\n📍 Bus routes & stops: transport.college.edu\n\n📞 Transport Office: +91-XXXX-XXXXXX (8 AM - 5 PM)"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "college events", "fest", "technical fest", "cultural fest",
+        "upcoming events", "workshop", "seminar", "hackathon",
+        "annual day", "sports day", "college activities", "clubs"
+      ],
+      "responses": [
+        "🎉 **College Events & Activities:**\n\n📅 **Annual Events:**\n• TECHNOVIBES (Tech Fest) - February\n• CULTURAMA (Cultural Fest) - March\n• Sports Week - January\n• Annual Day - April\n\n🏆 **Clubs & Societies:**\n• Coding Club (Tue & Thu, 4-6 PM)\n• Robotics Club\n• Literary & Debate Society\n• Music & Dance Troupe\n• Photography Club\n• NSS & NCC Units\n\n💡 **Regular Events:**\n• Weekly guest lectures\n• Monthly industry visits\n• Hackathons & Coding Contests\n\nStay updated: events.college.edu"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact number", "college phone number", "email", "address",
+        "how to contact", "principal office", "admin contact",
+        "helpline number", "college location", "where is the college"
+      ],
+      "responses": [
+        "📞 **Contact Information:**\n\n🏫 **College Address:**\nXYZ College of Engineering & Technology\n123, Education Hub, Tech City - 110001\n\n📞 **Phone Numbers:**\n• Main Office: +91-11-XXXX-XXXX\n• Admissions: +91-11-XXXX-XXXX\n• Placement Cell: +91-11-XXXX-XXXX\n\n📧 **Email Addresses:**\n• General: info@college.edu\n• Admissions: admissions@college.edu\n• Placements: placement@college.edu\n\n🌐 Website: www.college.edu\n📱 Social Media: @XYZCollege\n\n⏰ Office Hours: Mon-Sat, 9 AM - 5 PM"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "🤔 I'm not sure I understand that query. Could you please rephrase it?\n\nI can help you with:\n• Admissions & Enrollment\n• Courses & Programs\n• Exam Schedule & Results\n• Fees & Scholarships\n• Hostel Facilities\n• Library Information\n• Campus Facilities\n• Placements & Internships\n• Faculty Information\n• College Timings",
+
+        "❓ I didn't quite catch that. Try asking about:\n→ 'How to apply for admission?'\n→ 'What are college timings?'\n→ 'Tell me about hostel facilities'\n→ 'What courses are available?'\n\nOr type 'help' to see all topics!",
+
+        "🙁 Hmm, I couldn't find an answer for that. Please contact our helpdesk directly:\n📞 +91-11-XXXX-XXXX\n📧 help@college.edu\n\nOr try rephrasing your question!"
+      ]
+    }
+  ]
+}
